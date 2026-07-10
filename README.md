@@ -1,14 +1,12 @@
 博客的搭建教程修改自 [Hux](https://github.com/Huxpro/huxpro.github.io) 以及https://github.com/qiubaiying/qiubaiying.github.io
 
 >
-### [查看博客戳这里 👆](http://qiubaiying.github.io)
-
+### [查看博客戳这里🐈‍⬛](http://zhou155166.github.io)
 
 
 ## 使用
 
 * 开始
-	* [环境](#环境)
 	* [开始](#开始)
 	* [撰写博文](#撰写博文)
 * 组件
@@ -25,14 +23,6 @@
 	* [标题底图](#header-image)
 	* [搜索展示标题-头文件](#seo-title)
 
-
-
-### 环境
-
-如果你安装了 [jekyll](http://jekyllcn.com/)，那你只需要在命令行输入`jekyll serve` 或 `jekyll s`就能在本地浏览器中输入`http://127.0.0.1:4000/`预览主题，对主题的修改也能实时展示（需要强刷浏览器）。
-
-
-
 ### 开始
 
 你可以通用修改 `_config.yml`文件来轻松的开始搭建自己的博客:
@@ -40,18 +30,15 @@
 ```
 # Site settings
 title: BY Blog                    # 你的博客网站标题
-SEOTitle: 柏荧的博客 | BY Blog		# SEO 标题
+SEOTitle: 周楚雯的博客 | BY Blog		# SEO 标题
 description: "Hey"	   	   # 随便说点，描述一下
 
 # SNS settings      
-github_username: qiubaiying     # 你的github账号
-jianshu_username: e71990ada2fd  # 你的简书ID。
+github_username: zhou155166     # 你的github账号
 
 # Build settings
 # paginate: 10              # 一页你准备放几篇文章
 ```
-
-Jekyll官方网站还有很多的参数可以调，比如设置文章的链接形式...网址在这里：[Jekyll - Official Site](http://jekyllrb.com/) 中文版的在这里：[Jekyll中文](http://jekyllcn.com/).
 
 ### 撰写博文
 
@@ -77,8 +64,7 @@ tags:
 
 ### 侧边栏
 
-看右边:
-![](https://raw.githubusercontent.com/qiubaiying/qiubaiying.github.io/master/img/readme-side.png)
+看右边啦～
 
 设置是在 `_config.yml`文件里面的`Sidebar settings`那块。
 
@@ -113,7 +99,7 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 
 ### Social-media Account
 
-在下面输入的社交账号，没有的添加的不会显示在侧边框中。新加入了[简书](https:/www.jianshu.com)链接, <http://www.jianshu.com/u/e71990ada2fd>
+在下面输入的社交账号，没有的添加的不会显示在侧边框中。
 
 	# SNS settings
 	RSS: false
@@ -123,10 +109,6 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 	github_username:    username
 	# weibo_username:   username
 	
-	
-
-![](http://ww4.sinaimg.cn/large/006tKfTcgy1fgrgbgf77aj308i02v748.jpg)
-
 ### Friends
 
 好友链接部分。这会在全部页面显示。
@@ -149,10 +131,6 @@ friends: [
 
 
 ### Keynote Layout
-
-HTML5幻灯片的排版：
-
-![](https://camo.githubusercontent.com/f30347a118171820b46befdf77e7b7c53a5641a9/687474703a2f2f6875616e677875616e2e6d652f696d672f626c6f672d6b65796e6f74652e6a7067)
 
 这部分是用于占用html格式的幻灯片的，一般用到的是 Reveal.js, Impress.js, Slides, Prezi 等等.我认为一个现代化的博客怎么能少了放html幻灯的功能呢~
 
